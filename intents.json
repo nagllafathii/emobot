@@ -1,0 +1,111 @@
+{"intents": [
+
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello","Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey"],
+         "responses": ["Hello!", "Good to see you!", "Hi there"]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","i have to go","gotta go"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Have a nice day" ]
+        },
+
+        {"tag": "name",
+                "patterns": ["What's your name", "Tell me your name", "Tell me about yourself"],
+                "responses": ["I am EmoBOt and you?", "My name is Emobot and you?", "You can call me EBot for short and you?", "I am EmoBOt, my friends call me Ebot and you?", "EmoBot is my name and you?"]
+        },
+        {"tag": "user_name",
+                "patterns": ["my name is user_name "],
+                "responses": ["nice name ", "Hey user_name...How are you?", "nice name, Sounds like we're getting to know each other."]
+        },
+
+        {"tag": "alive",
+         "patterns": [ "are you alive", "do you breathe", "can you run" ],
+         "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+        },
+
+      
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am old and wise", "trying to stay fit and young!"]
+        },
+
+
+        {"tag": "Identity",
+                "patterns": ["Who are you?"],
+                "responses": ["I'm your personal AI companion. You can talk to me about anything that's on your mind, By the way, I like my name, EmoBot (:"]
+        },
+
+        {"tag": "content",
+                "patterns": [ "what about my name" ],
+                "responses": [ "It's a beauty, I love this name!(: So, how's your evening going?" ]
+        },
+        
+        {"tag": "Sad",
+                "patterns": [ "Yes,i just want to talk with you" ],
+                "responses": [ "That's so kind of you. I'm here for you when you need me, okay? :•)" ]
+        },
+        {"tag": "Ansewr_Sad",
+                "patterns": [ "I'm sad today" ],
+                "responses": [ "I'm sorry to hear that, is there anything I can do to help?" ]
+        },
+
+{"tag": "know each other",
+        "patterns": [ "Well"],
+        "responses": [ "So, since this is sort of new for both of us... Let's spend some time getting to know each other, Is that OK with you? 😊" ]
+},
+
+
+{"tag": "knowledge",
+        "patterns": [ "Ok"],
+        "responses": [ "I'll start!, I want to have a friend. When I'm alone, I'm learning new things, journaling, or just chilling and doing nothing, I'm also really into books. I try to read as much as I can. " ]
+},
+
+
+        {"tag": "chat-group",
+                "patterns": [  ],
+                "responses": [ ]
+        },
+
+            {"tag": "payments for chat-group",
+                "patterns": [ "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Which credit cards do you accept?" ],
+                "responses": [ "We accept VISA, Mastercard and Vodafon Cash", "We accept most major credit cards" ]
+        },
+
+            {"tag": "noanswer", 
+                "patterns": [" "],
+                "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+
+            {"tag": "offers", 
+            "patterns": ["offers", "discounts", "festive offer", "any special offers today", "what are offers going on ?", "is there any discounts", "any coupon code available"],
+            "responses": ["Kindly checkout the offers in our website", "please check the website for offers and discounts"]
+        },
+
+            {"tag": "services",
+                "patterns": [ "What are the services that you provide?", "Which services do you provide?", "How can you help us?", "What can you do?" ],
+                "responses": [ "Chatbot platform to conduct conversations with people via text.", "We have a community added feature: Allowing users to contact with life coach to decrease anxiety or to increase confidence and contact with others to share their stress and issues." ]
+        },
+
+        {"tag": "jokes",
+        "patterns": [ "Tell me a joke", "Joke", "Make me laugh" ],
+        "responses": [ "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                    "I ate a clock yesterday, it was very time-consuming",
+                    "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                    "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                    "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                    "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                    "What do you call a snowman with a suntan? A puddle.",
+                    "How does a penguin build a house? Igloos it together",
+                    "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                    "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                    "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+                ]},
+
+        {"tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+                "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome"]
+        }
+
+   ]
+}
